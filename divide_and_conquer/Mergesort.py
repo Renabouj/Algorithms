@@ -1,5 +1,6 @@
 import math
 
+
 def merge(array, left, middle, right):
     left_arr = middle - left + 1
     right_arr = right - middle
@@ -28,6 +29,7 @@ def merge(array, left, middle, right):
             array[k] = n_rightArr[g]
             g += 1
 
+
 def mergeSort(array, left, right):
     if left < right:
         middle = (left + right) // 2
@@ -35,7 +37,19 @@ def mergeSort(array, left, right):
         mergeSort(array, middle + 1, right)
         merge(array, left, middle, right)
 
-lista = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
-mergeSort(lista, 0, len(lista) - 1)
-print(lista)
 
+def main():
+    list = []
+
+    flag = True
+    while flag:
+        prompt = str(input("Type 'no' to start running the algorithm or wait to insert a number: "))
+        if prompt == 'no':
+            flag  = False
+        else:
+            number = int(input("Please insert a number: "))
+            list.append(number)
+
+
+if __name__ == '__main__':
+    main()
