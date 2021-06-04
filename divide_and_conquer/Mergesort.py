@@ -5,7 +5,7 @@
 
 
 
-import math        #used to criate the sentinels
+import math        #used to create the sentinels
 
 
 def merge(array, left, middle, right):
