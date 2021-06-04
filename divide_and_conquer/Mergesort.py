@@ -1,4 +1,11 @@
-import math
+############################################################################################
+# Reference: Introduction to Algorithms
+# Book by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen
+############################################################################################
+
+
+
+import math        #used to criate the sentinels
 
 
 def merge(array, left, middle, right):
