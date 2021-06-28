@@ -2,13 +2,15 @@
 *Input:
     - Non Empty
     - Palindrome String
+    
 *Output:
     - Non-Palindrome String
     - The lexicographcally Smallest One
 
-* Explanation: Given a palindrome string - say, string = 'abcddeddcba' - the
-               the lexicographically smallest, non-palindrome version of string
-               would be 'aacddeddcba'.
+*Explanation: 
+Given a palindrome string - say, string = 'abcddeddcba' - the
+the lexicographically smallest, non-palindrome version of string
+would be 'aacddeddcba'.
 """
 
 
